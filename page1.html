@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initail-scale=1.0" charset="UTF-8" />
+    <title>GURU</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<nav>
+    <div class="icon">
+        <h2 class="logo">GURU</h2>
+    </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Notes</a></li>
+        <li><a href="#">Tests</a></li>
+        <li><a href="#">Assignments</a></li>
+        <li><a href="#">Assessment</a></li>
+        <li><a href="#">Calender</a></li>
+    </ul>
+    <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type to text">
+        <a href="#"><button class="btn">Search</button></a>
+    </div>
+</nav>
+<div class="header">
+    <h1>WELCOME<br>TO<br>GURU<br></h1>
+    <div class="btn-container">
+        <button class="btn-dark">Know More <img src="images/arrow-black.png" alt=""></button>
+        <button class="btn-light">Contact Us <img src="images/phone.png" alt=""></button>
+    </div>
+    <p>Learn in a more efficient and fun manner.</p>
+    <img src="images/user.png" alt="" class="user-img">
+</div>
+<script>
+    let navbar=document.querySelector('nav');
+    window.onscroll=function(){
+        if(window.scrollY>0){
+            navbar.style.background='#eefff9';
+        }else{
+            navbar.style.background='transparent';
+        }
+    }
+</script>
+</body>
+</html>
